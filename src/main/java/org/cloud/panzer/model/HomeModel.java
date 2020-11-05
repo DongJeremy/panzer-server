@@ -4,15 +4,15 @@ import java.util.List;
 
 public class HomeModel {
     private List<HomeBanner> homeBannerList;
-    private List<HomeProductSet> homeProductSetList;
+    private List<HomeShortcut> homeShortcutList;
     private List<Goods> goodsList;
 
     public HomeModel() {
     }
 
-    public HomeModel(List<HomeBanner> homeBannerList, List<HomeProductSet> homeProductSetList, List<Goods> goodsList) {
+    public HomeModel(List<HomeBanner> homeBannerList, List<HomeShortcut> homeShortcutList, List<Goods> goodsList) {
         this.homeBannerList = homeBannerList;
-        this.homeProductSetList = homeProductSetList;
+        this.homeShortcutList = homeShortcutList;
         this.goodsList = goodsList;
     }
 
@@ -24,12 +24,12 @@ public class HomeModel {
         this.homeBannerList = homeBannerList;
     }
 
-    public List<HomeProductSet> getHomeProductSetList() {
-        return homeProductSetList;
+    public List<HomeShortcut> getHomeShortcutList() {
+        return homeShortcutList;
     }
 
-    public void setHomeProductSetList(List<HomeProductSet> homeProductSetList) {
-        this.homeProductSetList = homeProductSetList;
+    public void setHomeShortcutList(List<HomeShortcut> homeShortcutList) {
+        this.homeShortcutList = homeShortcutList;
     }
 
     public List<Goods> getGoodsList() {

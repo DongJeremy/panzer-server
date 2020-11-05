@@ -3,7 +3,7 @@
 
 <mapper namespace="org.cloud.panzer.mapper.HomeInfoMapper">
 
-    <resultMap type="HomeProductSet" id="homeProductSetMap">
+    <resultMap type="HomeShortcut" id="homeShortcutMap">
         <id column="id" property="id" />
         <result column="image" property="image" />
         <result column="type" property="type" />
@@ -28,7 +28,7 @@
         <result column="good_count" property="count" />
     </resultMap>
 
-    <select id="selectAllProductSet" resultMap="homeProductSetMap">
+    <select id="selectAllShortcut" resultMap="homeShortcutMap">
         SELECT
             *
         FROM

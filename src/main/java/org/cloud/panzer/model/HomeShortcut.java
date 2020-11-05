@@ -1,6 +1,6 @@
 package org.cloud.panzer.model;
 
-public class HomeProductSet {
+public class HomeShortcut {
     private int id;
     private String image;
     private String type;
@@ -8,10 +8,10 @@ public class HomeProductSet {
     private String name;
     private String color;
 
-    public HomeProductSet() {
+    public HomeShortcut() {
     }
 
-    public HomeProductSet(int id, String image, String type, String data, String name, String color) {
+    public HomeShortcut(int id, String image, String type, String data, String name, String color) {
         this.id = id;
         this.image = image;
         this.type = type;
